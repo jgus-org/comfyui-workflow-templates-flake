@@ -5,48 +5,48 @@
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
     flake-utils.url = "github:numtide/flake-utils";
     flake-lib = {
-      url = "github:jgus/flake-lib/v1";
+      url = "github:jgus-org/flake-lib/v1";
       inputs.nixpkgs.follows = "nixpkgs";
       inputs.flake-utils.follows = "flake-utils";
     };
     comfyui-workflow-templates-core = {
-      url = "github:jgus/comfyui-workflow-templates-core-flake";
+      url = "github:jgus-org/comfyui-workflow-templates-core-flake";
       inputs.nixpkgs.follows = "nixpkgs";
       inputs.flake-utils.follows = "flake-utils";
       inputs.flake-lib.follows = "flake-lib";
     };
     comfyui-workflow-templates-json = {
-      url = "github:jgus/comfyui-workflow-templates-json-flake";
+      url = "github:jgus-org/comfyui-workflow-templates-json-flake";
       inputs.nixpkgs.follows = "nixpkgs";
       inputs.flake-utils.follows = "flake-utils";
       inputs.flake-lib.follows = "flake-lib";
     };
     comfyui-workflow-templates-media-api = {
-      url = "github:jgus/comfyui-workflow-templates-media-api-flake";
+      url = "github:jgus-org/comfyui-workflow-templates-media-api-flake";
       inputs.nixpkgs.follows = "nixpkgs";
       inputs.flake-utils.follows = "flake-utils";
       inputs.flake-lib.follows = "flake-lib";
     };
     comfyui-workflow-templates-media-video = {
-      url = "github:jgus/comfyui-workflow-templates-media-video-flake";
+      url = "github:jgus-org/comfyui-workflow-templates-media-video-flake";
       inputs.nixpkgs.follows = "nixpkgs";
       inputs.flake-utils.follows = "flake-utils";
       inputs.flake-lib.follows = "flake-lib";
     };
     comfyui-workflow-templates-media-image = {
-      url = "github:jgus/comfyui-workflow-templates-media-image-flake";
+      url = "github:jgus-org/comfyui-workflow-templates-media-image-flake";
       inputs.nixpkgs.follows = "nixpkgs";
       inputs.flake-utils.follows = "flake-utils";
       inputs.flake-lib.follows = "flake-lib";
     };
     comfyui-workflow-templates-media-other = {
-      url = "github:jgus/comfyui-workflow-templates-media-other-flake";
+      url = "github:jgus-org/comfyui-workflow-templates-media-other-flake";
       inputs.nixpkgs.follows = "nixpkgs";
       inputs.flake-utils.follows = "flake-utils";
       inputs.flake-lib.follows = "flake-lib";
     };
     comfyui-workflow-templates-media-assets-01 = {
-      url = "github:jgus/comfyui-workflow-templates-media-assets-01-flake";
+      url = "github:jgus-org/comfyui-workflow-templates-media-assets-01-flake";
       inputs.nixpkgs.follows = "nixpkgs";
       inputs.flake-utils.follows = "flake-utils";
       inputs.flake-lib.follows = "flake-lib";
@@ -92,7 +92,7 @@
         (reqName: {
           inherit reqName;
           pypiName = reqName;
-          flakeRepo = "jgus/${reqName}-flake";
+          flakeRepo = "jgus-org/${reqName}-flake";
           mode = "exact";
         })
         [
