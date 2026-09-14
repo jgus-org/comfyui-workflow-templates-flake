@@ -65,11 +65,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1789303270,
-        "narHash": "sha256-JP7A/HetrSC0aftBP0Q6iAwrVhRCDn8KCp/HPWExcXY=",
+        "lastModified": 1789398322,
+        "narHash": "sha256-AuSMoqhAMXRXrHAWN0TJnvaCcBVMZjQTK1B7g1nRcQo=",
         "owner": "jgus-org",
         "repo": "comfyui-workflow-templates-media-api-flake",
-        "rev": "53175e0b42779a2340bee2aedb972cd5f2f5bd0c",
+        "rev": "0b079834fe794a301d6fe668cb8656d0784eb10e",
         "type": "github"
       },
       "original": {
