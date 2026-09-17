@@ -13,11 +13,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1789561752,
+        "lastModified": 1789648032,
         "narHash": "sha256-mi/czuysyWQ9OH1FCcTD4wkvu+6FxHQzuhrgc75a0A4=",
         "owner": "jgus-org",
         "repo": "comfyui-workflow-templates-core-flake",
-        "rev": "d30521d6e2bcd9a34201ca2c3b9f067ff1869f3f",
+        "rev": "76765f3e8e25ac0a50a015e0d5742f6869f266a2",
         "type": "github"
       },
       "original": {
@@ -39,11 +39,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1789475505,
+        "lastModified": 1789648178,
         "narHash": "sha256-mUsI9MbCPBxHnP/MQKCc1Nc+2ExUJWXmfrDC7LPP3co=",
         "owner": "jgus-org",
         "repo": "comfyui-workflow-templates-json-flake",
-        "rev": "f82d864ce70a13287336424a1ee63bf229adeece",
+        "rev": "7fa581cfa2f02f40dcb5d48c1513aaf82fda4b69",
         "type": "github"
       },
       "original": {
@@ -91,11 +91,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1789480598,
+        "lastModified": 1789566037,
         "narHash": "sha256-deLckWXbZl/Jg2nh/K7Uxk2ey3LFVU3NsRlvrkHbcaA=",
         "owner": "jgus-org",
         "repo": "comfyui-workflow-templates-media-assets-01-flake",
-        "rev": "3a6ad5644697ed940307bf000163e49e2a889517",
+        "rev": "5ff0201d91dbbc9681c7516397ec4adb59999983",
         "type": "github"
       },
       "original": {
