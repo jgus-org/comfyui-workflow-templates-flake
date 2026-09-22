@@ -1,9 +1,9 @@
 {
-  version = "0.11.66";
-  hash = "sha256-PYTvWQ0u7MavD9lPHaEytxkdXOy35eze55qjd+D8tGI=";
+  version = "0.11.65";
+  hash = "sha256-WyRCupxAUOq7izvc27Qoucg06SC2E9NAFzVtC3GXrCg=";
   dependencies = {
-    "comfyui-workflow-templates-core" = "v0.3.357";
-    "comfyui-workflow-templates-json" = "v0.1.92";
+    "comfyui-workflow-templates-core" = "v0.3.353";
+    "comfyui-workflow-templates-json" = "v0.1.88";
     "comfyui-workflow-templates-media-api" = "v0.3.84";
     "comfyui-workflow-templates-media-video" = "v0.3.101";
     "comfyui-workflow-templates-media-image" = "v0.3.160";
